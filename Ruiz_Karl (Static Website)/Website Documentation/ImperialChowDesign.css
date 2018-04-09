@@ -1,0 +1,285 @@
+box-sizing: border-box;
+}
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.header { 
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.header h1 {
+    font-size: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+ }   
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: yellow;
+    color: black;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+
+
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    display:relative;
+    text-align: center;
+}
+
+.card2 {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    display:relative;
+    text-align: center;
+}
+
+.card3 {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    display:relative;
+    text-align: center;
+}
+
+.card4 {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    display:relative;
+    text-align: center;
+}
+
+.card5 {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    display:relative;
+    text-align: center;
+}
+
+.card6 {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left:100px;
+    display:relative;
+    
+ }
+
+.misionvision{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    display:relative;
+    text-align: center;  
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#socialmedia{
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:12%;
+}
+
+.mainmeals {
+    text-align: justify;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 40px;
+    display: inline-block;
+}
+
+
+.mainmeals2 {
+    text-align: justify;
+    width: 250px;
+    margin-top: 20px;
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.mainmeals3 {
+    text-align: justify;
+    width: 250px;
+    margin-top: 20px;
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.mainmeals4 {
+    text-align: justify;
+    margin-top: 20px;
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.mainmeals5 {
+    text-align: justify;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.mainmeals6 {
+    text-align: justify;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.mainmeals7 {
+    text-align: justify;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.mainmeals8 {
+    text-align: justify;
+    width: 250px;
+    margin-top: 20px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.snacks1 {
+    text-align: justify;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 40px;
+    display: inline-block;
+}
+
+
+.snacks2 {
+    text-align: justify;
+    width: 250px;
+    margin-top: 20px;
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.snacks3 {
+    text-align: justify;
+    width: 250px;
+    margin-top: 20px;
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.snacks4 {
+    text-align: justify;
+    margin-top: 20px;
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.desserts1 {
+    text-align: justify;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.desserts2 {
+    text-align: justify;
+    width: 250px;
+    margin-top: 20px;
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.desserts3 {
+    text-align: justify;
+    width: 250px;
+    margin-top: 20px;
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.desserts4 {
+    text-align: justify;
+    margin-top: 20px;
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.details{
+    display: inline-block;
+    width: 40%;
+    margin-left: 200px;
+    }
+
+.contactform {
+    display: inline-block; 
+    word-wrap: break-word; 
+    width: 20%;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.button {text-align: right}
+
+
+
+
+
+
+
+
+  
